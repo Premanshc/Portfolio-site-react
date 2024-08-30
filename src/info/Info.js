@@ -1,9 +1,9 @@
 import self from "../img/withoutbgProfilePic copy.png"
+import mock01 from "../img/mock01.png"
+import mock02 from "../img/mock02.png"
+import mock03 from "../img/mock03.png"
+import mock04 from "../img/mock04.png"
 import mock1 from "../img/mock1.png"
-import mock2 from "../img/mock2.png"
-import mock3 from "../img/mock3.png"
-import mock4 from "../img/mock4.png"
-import mock5 from "../img/mock5.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -26,7 +26,7 @@ export const info = {
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
             emoji: '☕',
-            text: 'fueled by adrak chai'
+            text: 'fueled by Ginger Tea'
         },
         {
             emoji: '🌎',
@@ -43,16 +43,6 @@ export const info = {
     ],
     socials: [
         {
-            link: "https://facebook.com",
-            icon: 'fa fa-facebook',
-            label: 'facebook'
-        },
-        {
-            link: "https://www.instagram.com/premanshchanderiya/",
-            icon: 'fa fa-instagram',
-            label: 'instagram'
-        },
-        {
             link: "https://github.com/Premanshc",
             icon: "fa fa-github",
             label: 'github'
@@ -63,10 +53,21 @@ export const info = {
             label: 'linkedin'
         },
         {
-            link: "https://twitter.com",
+            link: "https://x.com/PremanshCodes",
             icon: "fa fa-twitter",
             label: 'twitter'
+        },
+        {
+            link: "https://facebook.com",
+            icon: 'fa fa-facebook',
+            label: 'facebook'
+        },
+        {
+            link: "https://www.instagram.com/premanshchanderiya/",
+            icon: 'fa fa-instagram',
+            label: 'instagram'
         }
+        
 // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
 // Just change the links so that they lead to your social profiles.
 
@@ -100,34 +101,34 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
+            title: "Video Meet App",
+            live: "https://video-meet-app-client.vercel.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/Premanshc/Video-Meet-App---Client", // this should be a link to the **repository** of the project, where the code is hosted.
+            image: mock01
+        },
+        {
+            title: "Keeper Notes App",
+            live: "https://keeper-notes-app-sooty.vercel.app/",
+            source: "https://github.com/Premanshc/Keeper-Notes-App",
+            image: mock02
+        },
+        {
             title: "Daily Geeta",
-            live: "https://daily-geeta.onrender.com/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/Premanshc/Daily-Geeta-Project", // this should be a link to the **repository** of the project, where the code is hosted.
+            live: "https://daily-geeta.onrender.com/",
+            source: "https://github.com/Premanshc/Daily-Geeta-Project",
+            image: mock03
+        },
+        {
+            title: "FoundLifeHacks Website",
+            live: "https://foundlifehacks.vercel.app/",
+            source: "https://github.com/Premanshc/FoundLifeHacks-Website",
+            image: mock04
+        },
+        {
+            title: "Portfolio Website",
+            live: "https://portfolio-site-react-omega.vercel.app/",
+            source: "https://github.com/Premanshc/Portfolio-site-react",
             image: mock1
-        },
-        {
-            title: "Project 2",
-            live: "https://github.com/Premanshc",
-            source: "https://github.com/Premanshc",
-            image: mock2
-        },
-        {
-            title: "Project 3",
-            live: "https://github.com/Premanshc",
-            source: "https://github.com/Premanshc",
-            image: mock3
-        },
-        {
-            title: "Project 4",
-            live: "https://github.com/Premanshc",
-            source: "https://github.com/Premanshc",
-            image: mock4
-        },
-        {
-            title: "Project 5",
-            live: "https://github.com/Premanshc",
-            source: "https://github.com/Premanshc",
-            image: mock5
         }
     ]
 }

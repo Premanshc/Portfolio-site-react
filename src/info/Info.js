@@ -81,7 +81,7 @@ export const info = {
     ,
     hobbies: [
         {
-            label: 'reading',
+            label: 'Reading',
             emoji: '📖'
         },
         {
@@ -89,11 +89,11 @@ export const info = {
             emoji: '⚽'
         },
         {
-            label: 'movies',
+            label: 'Movies',
             emoji: '🎥'
         },
         {
-            label: 'cooking',
+            label: 'Cooking',
             emoji: '🌶'
         }
 // Same as above, change the emojis to match / relate to your hobbies or interests.
